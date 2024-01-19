@@ -1,0 +1,23 @@
+tropes_characters_v3_all.csv:       5400    trope, link, [{movie, link, example, [character, ...]}, ...]            all info
+tropes_characters_split.csv:        183371  trope, link, {movie, link, text, [character, ...]}                      1 movie on each line, from characters_v3
+tropes_characters_split_v2.csv      204532  trope, link, movie, link, text                                          1 movie on each line, 
+tropes_characters_split_nodup.csv   29991   trope, link, movie, link, text                                          unique movie on each line, TRUNCATED TROPES, from split_v2                                         
+tropes_characters_split_char.csv    310350  trope, link, movie, link, text, character                               1 line per example (unique character, trope), all movies, with duplicates
+tropes_characters_split_filter.csv  26082   trope, link, movie, link, text, character                               1 line per example (unique character, trope), scripted movies, with duplicates
+tropes_chars_split_fuzzynodup.csv   21916   trope, link, movie, link, text, character                               1 line per example (unique character, trope), scripted movies, no duplicates
+tropes_characters_test.csv:
+tropes_deepscrape_all.csv:          n/A     html files  
+tropes_examples_v2_all.csv:         5400    trope, link, [{movie, link, text}, ...]
+tropes_href.csv:
+tropes_mentions_all.csv:            5400    trope, link [{trope, link}, ...]
+personality_mbti_all.csv:           8400    character, movie, mbti, link, year, id, mbti-stats...   
+personality_mbti_nodup.csv:         1152    character, movie, mbti, link, year, id, mbti-stats...  unique movies                 
+personality_base_all.csv:           8590    character, movie, mbti, link, year, id                     
+matchedmovie.csv:                   889     movie                                                                   trope-nodup AND personality-nodup
+deepscrape_all_gooddata.csv:
+deepscrape_all_nodata.csv:
+deepscrape_remaining.csv:
+deepscrape_v2_all.csv:
+tropes_personality_merge_all.csv:   174038  character, movie, mbti, link, year, id, [mbti scores...], trope, link, movie.1, link.1, text, character.1       one line per example (unique trope, nonunique character), scripted movies
+tropes_personality_merge_nodup.csv: 7774    character, movie, mbti, link, year, id, [mbti scores...], trope, link, movie.1, link.1, text, character.1       one line per character (unique character, TRUNCATED TROPES), scripted movies
+

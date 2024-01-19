@@ -1,0 +1,11 @@
+Big: 
+GPT4, 128k token can take entire script (lab has openai dev)
+
+Topic classification:
+    
+
+Sentiment Analysis:
+    aspect-based sentiment analysis -- atttitute of one entity about another one    
+    common sense media -- classified from SAIL -- finding violence, predicting pg score
+
+
